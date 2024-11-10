@@ -50,3 +50,16 @@ section {
     right: 25px;
     transform: scale(1.7) translateX(-250px) translateY(-180px) rotate(-30deg);
 }
+
+.btn-add {
+    position: absolute;
+    right: 72px;
+    bottom: 72px;
+}
+
+.pin-bottom {
+    position: absolute;
+    left: 180px;
+    right: 180px;
+    bottom: 100px;
+}
