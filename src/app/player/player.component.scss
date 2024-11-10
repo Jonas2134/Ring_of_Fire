@@ -1,0 +1,20 @@
+@import '../shared/mixin.scss';
+
+section {
+    @include dFlex($justify: left, $gap: 16px);
+    background-color: orange;
+    width: 300px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    >img {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+
+    >span {
+        font-size: 32px;
+    }
+}
